@@ -23,13 +23,13 @@ to test server. Adapter monitors events and sends notifications, when new object
 obtains alarm category. Expect DR server in `https://127.0.0.1:5082/`, 
 set credentials in lines 40-41.
 
-Test server there is in `dr_dronpoint_adaptor/dron_test_server.py`.
+Test server there is in `dr_dronpoint_adapter/dron_test_server.py`.
 It is simple flask server for checking notifications from adapter.
 Server starts on `http://127.0.0.1:50411/`
 
 start dron server
 ```
-python dr_dronpoint_adaptor/dron_test_server.py
+python dr_dronpoint_adapter/dron_test_server.py
 ```
 start adapter
 ```
